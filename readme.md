@@ -83,23 +83,23 @@ Returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
         },
         "timetable": [
             {
-                "departure": "2017-10-09T16:09:00.000Z",
+                "departure": "2017-10-09T16:09:00.000Z", // JS Date() object
                 "departureDelay": 0
             },
             {
-                "departure": "2017-10-09T16:19:00.000Z",
+                "departure": "2017-10-09T16:19:00.000Z", // JS Date() object
                 "departureDelay": 0
             },
             {
-                "departure": "2017-10-09T16:29:00.000Z",
+                "departure": "2017-10-09T16:29:00.000Z", // JS Date() object
                 "departureDelay": 0
             },
             {
-                "departure": "2017-10-09T16:39:00.000Z",
+                "departure": "2017-10-09T16:39:00.000Z", // JS Date() object
                 "departureDelay": 0
             },
             {
-                "departure": "2017-10-09T16:51:00.000Z",
+                "departure": "2017-10-09T16:51:00.000Z", // JS Date() object
                 "departureDelay": 0
             }
         ]
@@ -182,9 +182,9 @@ Returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
                     }
                     // …
                 ],
-                "departure": "2017-10-09T15:31:00.000Z",
+                "departure": "2017-10-09T15:31:00.000Z", // JS Date() object
                 "departureDelay": 0,
-                "arrival": "2017-10-09T15:39:00.000Z",
+                "arrival": "2017-10-09T15:39:00.000Z", // JS Date() object
                 "arrivalDelay": 0,
                 "departurePlatform": null,
                 "arrivalPlatform": null
@@ -236,9 +236,9 @@ Returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
                     }
                     // …
                 ],
-                "departure": "2017-10-09T15:42:00.000Z",
+                "departure": "2017-10-09T15:42:00.000Z", // JS Date() object
                 "departureDelay": 0,
-                "arrival": "2017-10-09T16:08:00.000Z",
+                "arrival": "2017-10-09T16:08:00.000Z", // JS Date() object
                 "arrivalDelay": 0,
                 "departurePlatform": null,
                 "arrivalPlatform": null
