@@ -27,13 +27,13 @@
 		"lodash.merge": "^4.6.0",
 		"lodash.toarray": "^4.4.0",
 		"moment-timezone": "^0.5.13",
-		"pinkie-promise": "^2.0.1"
+		"pinkie-promise": "^2.0.1",
+		"lodash.isstring": "^4.0.1"
 	},
 	"devDependencies": {
 		"lodash.isdate": "^4.0.1",
 		"lodash.isnumber": "^3.0.3",
 		"lodash.isobject": "^3.0.2",
-		"lodash.isstring": "^4.0.1",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
