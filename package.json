@@ -1,5 +1,5 @@
 {
-	"name": "boilerplate",
+	"name": "lvb",
 	"description": "Inofficial LVB (Leipziger Verkehrsbetriebe) API client.",
 	"version": "0.0.0",
 	"keywords": [
@@ -14,9 +14,9 @@
 		"transport"
 	],
 	"author": "Julius Tens <mail@juliustens.de>",
-	"homepage": "https://github.com/juliuste/boilerplate",
-	"repository": "juliuste/boilerplate",
-	"bugs": "https://github.com/juliuste/boilerplate/issues",
+	"homepage": "https://github.com/juliuste/lvb",
+	"repository": "juliuste/lvb",
+	"bugs": "https://github.com/juliuste/lvb/issues",
 	"main": "./index.js",
 	"files": [
 		"index.js",
