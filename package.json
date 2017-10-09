@@ -1,0 +1,45 @@
+{
+	"name": "boilerplate",
+	"description": "Inofficial LVB (Leipziger Verkehrsbetriebe) API client.",
+	"version": "0.0.0",
+	"keywords": [
+		"lvb",
+		"leipzig",
+		"germany",
+		"deutschland",
+		"öpnv",
+		"public",
+		"transport"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/boilerplate",
+	"repository": "juliuste/boilerplate",
+	"bugs": "https://github.com/juliuste/boilerplate/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js",
+		"lib/*"
+	],
+	"dependencies": {
+		"fetch-ponyfill": "^4.1.0",
+		"lodash.merge": "^4.6.0",
+		"lodash.toarray": "^4.4.0",
+		"moment-timezone": "^0.5.13",
+		"pinkie-promise": "^2.0.1"
+	},
+	"devDependencies": {
+		"lodash.isdate": "^4.0.1",
+		"lodash.isnumber": "^3.0.3",
+		"lodash.isobject": "^3.0.2",
+		"lodash.isstring": "^4.0.1",
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepublish": "npm test"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"license": "MIT"
+}
