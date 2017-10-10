@@ -18,7 +18,7 @@ npm install --save lvb
 
 ## Usage
 
-This package mostly contains data in the [*Friendly Public Transport Format*](https://github.com/public-transport/friendly-public-transport-format):
+This package mostly returns data in the [*Friendly Public Transport Format*](https://github.com/public-transport/friendly-public-transport-format):
 
 - [`stations(query, [opt])`](#stationsquery-opt) - Search for stations
 - [`departures(station, date = Date.now())`](#departuresstation-date--datenow) - Departures at a given station
