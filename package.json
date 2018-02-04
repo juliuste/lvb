@@ -23,7 +23,7 @@
 		"lib/*"
 	],
 	"dependencies": {
-		"fetch-ponyfill": "^4.1.0",
+		"fetch-ponyfill": "^5.0.0",
 		"lodash.isstring": "^4.0.1",
 		"lodash.merge": "^4.6.0",
 		"lodash.toarray": "^4.4.0",
