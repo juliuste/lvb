@@ -28,7 +28,7 @@
 		"lodash.merge": "^4.6.0",
 		"lodash.toarray": "^4.4.0",
 		"moment-timezone": "^0.5.13",
-		"p-queue": "^2.2.0",
+		"p-queue": "^3.0.0",
 		"pinkie-promise": "^2.0.1"
 	},
 	"devDependencies": {
