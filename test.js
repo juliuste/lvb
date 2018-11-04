@@ -5,8 +5,7 @@ const isObject = require('lodash.isobject')
 const isNumber = require('lodash.isnumber')
 const isString = require('lodash.isstring')
 const isDate = require('lodash.isdate')
-const lvb = require('./index')
-
+const lvb = require('.')
 
 tape('lvb.stations', (t) => {
 	lvb.stations('Nationalbibliothek').then((s) => {

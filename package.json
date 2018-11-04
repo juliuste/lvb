@@ -1,27 +1,34 @@
 {
 	"name": "lvb",
-	"description": "Inofficial LVB (Leipziger Verkehrsbetriebe) API client.",
 	"version": "0.0.2",
+	"description": "Inofficial LVB (Leipziger Verkehrsbetriebe) API client.",
 	"keywords": [
-		"lvb",
+		"deutschland",
+		"germany",
 		"leipzig",
+		"lvb",
+		"public",
 		"sachsen",
 		"saxony",
-		"germany",
-		"deutschland",
-		"öpnv",
-		"public",
-		"transport"
+		"transport",
+		"öpnv"
 	],
-	"author": "Julius Tens <mail@juliustens.eu>",
 	"homepage": "https://github.com/juliuste/lvb",
-	"repository": "juliuste/lvb",
 	"bugs": "https://github.com/juliuste/lvb/issues",
-	"main": "./index.js",
+	"repository": "juliuste/lvb",
+	"license": "ISC",
+	"author": "Julius Tens <mail@juliustens.eu>",
 	"files": [
-		"index.js",
 		"lib/*"
 	],
+	"main": "lib/index.js",
+	"scripts": {
+		"check-deps": "depcheck",
+		"fix": "eslint --fix lib test.js",
+		"lint": "eslint lib test.js",
+		"prepublishOnly": "npm test",
+		"test": "npm run lint && npm run check-deps && node test"
+	},
 	"dependencies": {
 		"fetch-ponyfill": "^5.0.0",
 		"lodash.isstring": "^4.0.1",
@@ -32,17 +39,20 @@
 		"pinkie-promise": "^2.0.1"
 	},
 	"devDependencies": {
+		"depcheck": "^0.6.11",
+		"eslint": "^5.8.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-node": "^8.0.0",
+		"eslint-plugin-promise": "^4.0.1",
+		"eslint-plugin-standard": "^4.0.0",
 		"lodash.isdate": "^4.0.1",
 		"lodash.isnumber": "^3.0.3",
 		"lodash.isobject": "^3.0.2",
-		"tape": "^4.8.0"
-	},
-	"scripts": {
-		"test": "node test.js",
-		"prepare": "npm test"
+		"tape": "^4.9.1",
+		"tape-promise": "^4.0.0"
 	},
 	"engines": {
-		"node": ">=6"
-	},
-	"license": "MIT"
+		"node": ">=8"
+	}
 }
