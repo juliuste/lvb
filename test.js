@@ -3,10 +3,10 @@
 const tapeWithoutPromise = require('tape')
 const addPromiseSupport = require('tape-promise').default
 const tape = addPromiseSupport(tapeWithoutPromise)
-const isObject = require('lodash.isobject')
-const isNumber = require('lodash.isnumber')
-const isString = require('lodash.isstring')
-const isDate = require('lodash.isdate')
+const isObject = require('lodash/isObject')
+const isNumber = require('lodash/isNumber')
+const isString = require('lodash/isString')
+const isDate = require('lodash/isDate')
 const lvb = require('.')
 
 tape('lvb.stations', async t => {

@@ -30,13 +30,10 @@
 		"test": "npm run lint && npm run check-deps && node test"
 	},
 	"dependencies": {
-		"fetch-ponyfill": "^5.0.0",
-		"lodash.isstring": "^4.0.1",
-		"lodash.merge": "^4.6.0",
-		"lodash.toarray": "^4.4.0",
+		"fetch-ponyfill": "^6.0.2",
+		"lodash": "^4.17.11",
 		"moment-timezone": "^0.5.13",
-		"p-queue": "^2.2.0",
-		"pinkie-promise": "^2.0.1"
+		"p-queue": "^3.0.0"
 	},
 	"devDependencies": {
 		"depcheck": "^0.6.11",
@@ -46,9 +43,6 @@
 		"eslint-plugin-node": "^8.0.0",
 		"eslint-plugin-promise": "^4.0.1",
 		"eslint-plugin-standard": "^4.0.0",
-		"lodash.isdate": "^4.0.1",
-		"lodash.isnumber": "^3.0.3",
-		"lodash.isobject": "^3.0.2",
 		"tape": "^4.9.1",
 		"tape-promise": "^4.0.0"
 	},
