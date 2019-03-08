@@ -33,7 +33,7 @@
 		"fetch-ponyfill": "^6.0.2",
 		"lodash": "^4.17.11",
 		"moment-timezone": "^0.5.13",
-		"p-queue": "^3.0.0"
+		"p-queue": "^4.0.0"
 	},
 	"devDependencies": {
 		"depcheck": "^0.6.11",
