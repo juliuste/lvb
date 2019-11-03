@@ -1,12 +1,11 @@
 # lvb
 
-Client for the [LVB](https://l.de/verkehrsbetriebe) (Leipziger Verkehrsbetriebe) API. Inofficial, please ask LVB for permission before using this module in production. **Actually, there should be no need for projects like this since municipal public transportation endpoints should be open to the public. It's 2018.**
+Client for the [LVB](https://l.de/verkehrsbetriebe) (Leipziger Verkehrsbetriebe) API. Inofficial, please ask LVB for permission before using this module in production. **Actually, there should be no need for projects like this since municipal public transportation endpoints should be open to the public. It's 2019.**
 
 [![npm version](https://img.shields.io/npm/v/lvb.svg)](https://www.npmjs.com/package/lvb)
 [![Build Status](https://travis-ci.org/juliuste/lvb.svg?branch=master)](https://travis-ci.org/juliuste/lvb)
 [![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/lvb.svg)](https://greenkeeper.io/)
-[![license](https://img.shields.io/github/license/juliuste/lvb.svg?style=flat)](LICENSE)
-[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
+[![license](https://img.shields.io/github/license/juliuste/lvb.svg?style=flat)](license)
 
 ## Installation
 
@@ -298,4 +297,4 @@ const defaults = {
 
 ## Contributing
 
-If you found a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/lvb/issues).
+If you found a bug or want to propose a feature, feel free to visit [the issues page](https://github.com/juliuste/lvb/issues).
