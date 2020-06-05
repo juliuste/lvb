@@ -38,7 +38,7 @@ const isLine = (l) =>
 	isString(l.id) && l.id.length > 0	&&
 isString(l.class) && l.class.length > 0	&&
 isString(l.direction) && l.direction.length > 0	&&
-isString(l.operator) && l.operator.length > 0	&&
+isString(l.operator) &&
 isString(l.color) && l.color.length === 7
 
 const isFare = (f) =>
@@ -83,7 +83,7 @@ const isDepLine = (l) =>
 	isString(l.id) && l.id.length > 0	&&
 isString(l.class) && l.class.length > 0	&&
 isString(l.direction) && l.direction.length > 0	&&
-isString(l.operator) && l.operator.length > 0	&&
+isString(l.operator) &&
 isString(l.name) && l.name.length > 0
 
 tape('lvb.departures', async t => {
