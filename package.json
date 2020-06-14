@@ -18,6 +18,9 @@
 	"repository": "juliuste/lvb",
 	"license": "ISC",
 	"author": "Julius Tens <mail@juliustens.eu>",
+	"contributors": [
+		"Justin Kromlinger <mail@hashworks.net>"
+	],
 	"main": "lib/index.js",
 	"files": [
 		"lib/*"
