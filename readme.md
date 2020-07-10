@@ -4,7 +4,6 @@ Client for the [LVB](https://l.de/verkehrsbetriebe) (Leipziger Verkehrsbetriebe)
 
 [![npm version](https://img.shields.io/npm/v/lvb.svg)](https://www.npmjs.com/package/lvb)
 [![Build Status](https://travis-ci.org/juliuste/lvb.svg?branch=master)](https://travis-ci.org/juliuste/lvb)
-[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/lvb.svg)](https://greenkeeper.io/)
 [![license](https://img.shields.io/github/license/juliuste/lvb.svg?style=flat)](license)
 
 ## Installation
