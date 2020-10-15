@@ -19,7 +19,8 @@
 	"license": "ISC",
 	"author": "Julius Tens <mail@juliustens.eu>",
 	"contributors": [
-		"Justin Kromlinger <mail@hashworks.net>"
+		"Justin Kromlinger <mail@hashworks.net>",
+		"Jörg Reichert (http://joergreichert.github.io/)"
 	],
 	"main": "lib/index.js",
 	"files": [
