@@ -1,9 +1,8 @@
 # lvb
 
-Client for the [LVB](https://l.de/verkehrsbetriebe) (Leipziger Verkehrsbetriebe) API. Inofficial, please ask LVB for permission before using this module in production. **Actually, there should be no need for projects like this since municipal public transportation endpoints should be open to the public. It's 2020.**
+Client for the [LVB](https://l.de/verkehrsbetriebe) (Leipziger Verkehrsbetriebe) API. Inofficial, please ask LVB for permission before using this module in production. **Actually, there should be no need for projects like this since municipal public transportation endpoints should be open to the public. It's 2021.**
 
 [![npm version](https://img.shields.io/npm/v/lvb.svg)](https://www.npmjs.com/package/lvb)
-[![Build Status](https://travis-ci.org/juliuste/lvb.svg?branch=master)](https://travis-ci.org/juliuste/lvb)
 [![license](https://img.shields.io/github/license/juliuste/lvb.svg?style=flat)](license)
 
 ## Installation
