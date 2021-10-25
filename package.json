@@ -1,6 +1,6 @@
 {
 	"name": "lvb",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Inofficial LVB (Leipziger Verkehrsbetriebe) API client.",
 	"keywords": [
 		"deutschland",
